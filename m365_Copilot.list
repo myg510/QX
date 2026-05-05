@@ -1,0 +1,10 @@
+# > m365 Copilot rules
+DOMAIN-SUFFIX,skype.com
+DOMAIN-SUFFIX,office.com
+DOMAIN-SUFFIX,officeapps.live.com 
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,microsoftonline.com
+DOMAIN-SUFFIX,onedrive.com
+DOMAIN-SUFFIX,office.net
+DOMAIN-SUFFIX,azurefd.net

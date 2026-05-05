@@ -1,0 +1,63 @@
+# NAME: AI-Extra (Custom supplemental rules)
+# DESCRIPTION: AI 服务补充规则，覆盖 ddgksf2013/Ai.yaml 和 dler-io/AI Suite 都未包含的服务
+# UPDATED: 2026-05-05
+
+# > Audio / Music Generation
+DOMAIN-SUFFIX,suno.com
+DOMAIN-SUFFIX,suno.ai
+DOMAIN-SUFFIX,udio.com
+DOMAIN-SUFFIX,elevenlabs.io
+DOMAIN-SUFFIX,eleven-labs.com
+
+# > LLM Platforms
+DOMAIN-SUFFIX,cohere.com
+DOMAIN-SUFFIX,cohere.ai
+DOMAIN-SUFFIX,mistral.ai
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,hf.co
+DOMAIN-SUFFIX,replicate.com
+DOMAIN-SUFFIX,replicate.delivery
+DOMAIN-SUFFIX,together.ai
+DOMAIN-SUFFIX,together.xyz
+DOMAIN-SUFFIX,fireworks.ai
+DOMAIN-SUFFIX,lambda.ai
+DOMAIN-SUFFIX,lambdalabs.com
+
+# > Video Generation
+DOMAIN-SUFFIX,runwayml.com
+DOMAIN-SUFFIX,pika.art
+DOMAIN-SUFFIX,lumalabs.ai
+DOMAIN-SUFFIX,klingai.com
+DOMAIN-SUFFIX,hailuoai.com
+DOMAIN-SUFFIX,hailuoai.video
+DOMAIN-SUFFIX,vidu.studio
+DOMAIN-SUFFIX,vidu.com
+
+# > Image Generation
+DOMAIN-SUFFIX,stability.ai
+DOMAIN-SUFFIX,leonardo.ai
+DOMAIN-SUFFIX,ideogram.ai
+DOMAIN-SUFFIX,krea.ai
+DOMAIN-SUFFIX,civitai.com
+DOMAIN-SUFFIX,bfl.ai
+DOMAIN-SUFFIX,blackforestlabs.ai
+DOMAIN-SUFFIX,recraft.ai
+
+# > Coding AI / AI IDEs
+DOMAIN-SUFFIX,bolt.new
+DOMAIN-SUFFIX,stackblitz.com
+DOMAIN-SUFFIX,v0.dev
+DOMAIN-SUFFIX,v0.app
+DOMAIN-SUFFIX,lovable.dev
+DOMAIN-SUFFIX,lovable.app
+DOMAIN-SUFFIX,replit.com
+DOMAIN-SUFFIX,devin.ai
+DOMAIN-SUFFIX,tabnine.com
+DOMAIN-SUFFIX,sourcegraph.com
+
+# > Other AI Services
+DOMAIN-SUFFIX,deepl.com
+DOMAIN-SUFFIX,you.com
+DOMAIN-SUFFIX,phind.com
+DOMAIN-SUFFIX,manus.im
+DOMAIN-SUFFIX,manus.chat
