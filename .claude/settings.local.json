@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(curl -s 'https://api.github.com/repos/__TRACKED_VAR__/git/trees/main?recursive=1')",
+      "WebSearch",
+      "Bash(curl -sI \"https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/split/partF/FanQieNovel.snippet\")",
+      "Bash(curl -s \"https://api.github.com/repos/fmz200/wool_scripts/commits?path=QuantumultX/rewrite/split/partF/FanQieNovel.snippet&per_page=3\")",
+      "Bash(curl -s \"https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/split/partF/FanQieNovel.snippet\")",
+      "Bash(curl -s \"https://api.github.com/repos/fmz200/wool_scripts/git/trees/main?recursive=1\")",
+      "Bash(curl -s 'https://api.github.com/repos/__TRACKED_VAR__/git/trees/__TRACKED_VAR__?recursive=1')",
+      "Bash(curl -fsSL \"https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/split/partF/FanQieNovel.snippet\")",
+      "Bash(curl -fsSL -o \"C:/Users/ingray/OneDrive/01.SRE_Knowledge/04-网络 \\(Network\\)/proxy-tools/QuantumultX/rewrite/FanQieNovel.snippet\" \"https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/split/partF/FanQieNovel.snippet\")",
+      "Bash(curl -s -o /tmp/dler.list -w \"DLER:%{http_code}\\\\n\" \"https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/AI%20Suite.list\")",
+      "Bash(curl -s -o /tmp/acl.list -w \"ACL:%{http_code}\\\\n\" \"https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/AI.list\")",
+      "Bash(curl -s -o /tmp/blackmatrix.list -w \"BM:%{http_code}\\\\n\" \"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/OpenAI/OpenAI.list\")",
+      "Bash(curl -s -o /tmp/repcz.list -w \"RZ:%{http_code}\\\\n\" \"https://raw.githubusercontent.com/Repcz/Tool/master/QuantumultX/Rules/AI.list\")",
+      "Bash(curl -s -o /tmp/coldv.list -w \"CV:%{http_code}\\\\n\" \"https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Quantumult/Filters/AI.list\")",
+      "Read(//tmp/**)",
+      "Bash(curl -fsSL \"https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/AI%20Suite.list\")",
+      "Bash(curl -fsSL -o \"C:/Users/ingray/OneDrive/01.SRE_Knowledge/04-网络 \\(Network\\)/proxy-tools/QuantumultX/filter/AI-Suite.list\" \"https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/AI%20Suite.list\")",
+      "Bash(git add *)",
+      "Bash(git push *)",
+      "Bash(curl -fsSI \"https://raw.githubusercontent.com/myg510/QX/main/filter/AI-Extra.list\")",
+      "Bash(curl -fsSI \"https://raw.githubusercontent.com/myg510/QX/main/QuantumultX.conf\")",
+      "Bash(git commit *)"
+    ]
+  }
+}
