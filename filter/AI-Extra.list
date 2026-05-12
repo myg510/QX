@@ -1,6 +1,6 @@
 # NAME: AI-Extra (Comprehensive AI Rules)
-# DESCRIPTION: 整合 ddgksf2013/Ai.yaml + dler-io/AI Suite + 自维护补充规则，去重后共 174 条
-# UPDATED: 2026-05-05
+# DESCRIPTION: 整合 ddgksf2013/Ai.yaml + dler-io/AI Suite + 自维护补充规则，去重后共 171 条
+# UPDATED: 2026-05-12
 # REPO: https://github.com/myg510/QX
 
 # > General Infra (AI services 共用基础设施)
@@ -9,7 +9,7 @@ DOMAIN,browser-intake-datadoghq.com
 DOMAIN,static.cloudflareinsights.com
 DOMAIN,o33249.ingest.sentry.io
 DOMAIN-SUFFIX,algolia.net
-DOMAIN-SUFFIX,amazonaws.com
+# amazonaws.com 过宽（含 S3/EC2/CloudFront 等大量非 AI 服务），按需添加具体端点
 DOMAIN-SUFFIX,arkoselabs.com
 DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,azureedge.net
@@ -52,7 +52,6 @@ DOMAIN-SUFFIX,sora.com
 # > Google AI (Gemini / Bard / AI Studio / NotebookLM / DeepMind / Colab)
 DOMAIN,ai.google.dev
 DOMAIN,alkalicore-pa.clients6.google.com
-DOMAIN,api.github.com
 DOMAIN,makersuite.google.com
 DOMAIN,waa-pa.clients6.google.com
 DOMAIN-KEYWORD,alkalimakersuite-pa.clients6.google.com
@@ -115,7 +114,7 @@ DOMAIN-SUFFIX,x.ai
 
 # > Meta AI
 DOMAIN-SUFFIX,meta.ai
-DOMAIN-SUFFIX,meta.com
+# meta.com 过宽（含 Instagram/Facebook/WhatsApp 等全线产品），仅保留 meta.ai
 
 # > Perplexity
 DOMAIN,pplx-res.cloudinary.com
