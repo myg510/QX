@@ -1,7 +1,5 @@
 # Unbreak
-# 由于广告屏蔽无法做到100%完美，故由墨鱼维护本分流，用以修正误屏蔽的域名
-# logtime: 2024-10-22
-
+# 由于广告屏蔽无法做到100%完美，用以修正误屏蔽的域名
 # > dedao
 DOMAIN-SUFFIX,umiwi.com
 # > general
@@ -11,9 +9,6 @@ DOMAIN,bdtj.tagtic.cn
 # > alibaba
 DOMAIN,log.mmstat.com
 DOMAIN,sycm.mmstat.com
-# > bilibili
-DOMAIN-SUFFIX,bilivideo.cn
-DOMAIN-SUFFIX,bilivideo.com
 # > google
 DOMAIN-SUFFIX,blog.google
 DOMAIN-SUFFIX,googletraveladservices.com
@@ -21,6 +16,7 @@ DOMAIN,clientservices.googleapis.com
 DOMAIN,update.googleapis.com
 DOMAIN,dl.google.com
 DOMAIN,dl.l.google.com
+DOMAIN,redirector.gvt1.com
 DOMAIN,update.googleapis.com
 # >> Firebase Cloud Messaging
 DOMAIN,mtalk.google.com
@@ -44,5 +40,5 @@ DOMAIN,analytics.strava.com
 # > umeng
 DOMAIN,msg.umeng.com
 DOMAIN,msg.umengcloud.com
-# > zhiboba
-DOMAIN-SUFFIX,stats.qiumibao.com
+# > other
+DOMAIN,ci.android.com
